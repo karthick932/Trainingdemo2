@@ -5,5 +5,15 @@
 	<section name="com.ibm.rational.test.lt.execution.econsole.ConsoleSettingsDefinition">
 	</section>
 	<section name="com.ibm.rational.test.lt.execution.econsole.UIPersistenceDefinition">
+		<item key="P_UI_GROUP_BY_MODE" value="GROUP_BY_NONE"/>
+		<item key="P_UI_SORT_COLUMN_ID" value="1"/>
+		<item key="P_UI_SORT_DIRECTION" value="128"/>
+		<item key="P_UI_COLUMN_WIDTH_MESSAGE" value="250"/>
+		<item key="P_UI_COLUMN_WIDTH_DATE" value="180"/>
+		<item key="P_UI_COLUMN_WIDTH_TYPE" value="150"/>
+		<item key="P_UI_COLUMN_WIDTH_USER" value="150"/>
+		<item key="P_UI_COLUMN_WIDTH_USERGROUP" value="150"/>
+		<item key="P_UI_COLUMN_WIDTH_TEST" value="150"/>
+		<item key="P_UI_COLUMN_WIDTH_AGENT" value="150"/>
 	</section>
 </section>

@@ -233,3 +233,257 @@ Session ID: fbd23523b0771ba9e93c9a0f54d1c7eb
 
 !ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2026-04-03 10:04:25.434
 !MESSAGE Saving dialog settings
+!SESSION 2026-04-03 21:10:51.049 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.15+6
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20250415_979 (JIT enabled, AOT enabled)
+OpenJ9   - 31cf5538b0
+OMR      - 9bcff94a2
+JCL      - d3deabff95c based on jdk-17.0.15+6
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\karthick_ba\WS1\PERFTest2 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-03 21:11:19.669
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karthick_ba'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:24.956
+!MESSAGE RPTS1518I DS_OUT: Starting dataset service C:\Program Files\HCL\DevOpsTest\jdk\bin\java.exe, -jar, C:\Program Files\HCL\DevOpsTest\..\HCLIMShared\plugins\com.ibm.rational.test.lt.server_1.4.900.v20251202_0514\datasets\datasets-service.jar, --spring.profiles.active=wb, --spring.config.additional-location=C:\Users\KARTHI~1\AppData\Local\Temp\keystore_v3.properties, --server.ssl.key-store=C:\Users\KARTHI~1\AppData\Local\Temp\rpt_keystore_v3.jks, --server.ssl.trust-store=C:\Users\KARTHI~1\AppData\Local\Temp\rpt_keystore_v3.jks, --server.port=7081, --server.address=127.0.0.1, --dataset.service.exitdetect=true
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:52.275
+!MESSAGE RPTS1518I DS_OUT: Started dataset service available 27s
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.484
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.489
+!MESSAGE RPTS1518I   .   ____          _            __ _ _
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.495
+!MESSAGE RPTS1518I  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.501
+!MESSAGE RPTS1518I ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.508
+!MESSAGE RPTS1518I  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.513
+!MESSAGE RPTS1518I   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.519
+!MESSAGE RPTS1518I  =========|_|==============|___/=/_/_/_/
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.524
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.529
+!MESSAGE RPTS1518I  :: Spring Boot ::                (v3.5.7)
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:11:57.534
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.common.models.behavior 4 0 2026-04-03 21:12:03.191
+!MESSAGE Failed to read preference DEFAULT_ERROR_HANDLERS, reverting to default
+!STACK 0
+org.eclipse.emf.ecore.resource.Resource$IOWrappedException: Package with uri 'http:///com/ibm/rational/test/lt/models/behavior/http/errors.ecore' not found. (, 3, 106)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.handleErrors(XMLLoadImpl.java:77)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:268)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:889)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.load(XMLResourceImpl.java:853)
+	at com.ibm.rational.test.common.models.behavior.util.BehaviorUtil.deserializeEmfObject(BehaviorUtil.java:1692)
+	at com.ibm.rational.test.common.models.behavior.pref.CommonModelsPreferences.getDefaultErrorHandlers(CommonModelsPreferences.java:85)
+	at com.ibm.rational.test.common.models.behavior.pref.CommonModelsPreferences.setDefaultErrorHandlersForCBTest(CommonModelsPreferences.java:99)
+	at com.ibm.rational.test.common.schedule.impl.ScheduleFactoryImpl.createNewSchedule(ScheduleFactoryImpl.java:236)
+	at com.ibm.rational.test.common.schedule.editor.wizard.NewScheduleWizard.adjustTestSuite(NewScheduleWizard.java:77)
+	at com.ibm.rational.common.test.editor.framework.wizard.RptTestSuiteNewWizard.createObject(RptTestSuiteNewWizard.java:113)
+	at com.ibm.rational.common.test.editor.framework.wizard.RptTestSuiteNewWizard.createObject(RptTestSuiteNewWizard.java:88)
+	at com.ibm.rational.test.lt.ui.wizards.NewFileWizard.createObject(NewFileWizard.java:254)
+	at com.ibm.rational.test.lt.ui.wizards.NewFileWizard$1$1.run(NewFileWizard.java:133)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2335)
+	at com.ibm.rational.test.lt.ui.wizards.NewFileWizard$1.run(NewFileWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.ibm.rational.test.lt.ui.wizards.NewFileWizard.performFinish(NewFileWizard.java:124)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.ibm.rational.test.lt.navigator.internal.action.provider.WizardShortcutAction.run(WizardShortcutAction.java:82)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:575)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'http:///com/ibm/rational/test/lt/models/behavior/http/errors.ecore' not found. (, 3, 106)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.getPackageForURI(XMLHandler.java:2643)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.getFactoryForPrefix(XMLHandler.java:2476)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObjectFromTypeName(XMLHandler.java:2126)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.createObject(XMLHandler.java:2085)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.handleFeature(XMLHandler.java:1894)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.processElement(XMLHandler.java:1048)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:1026)
+	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.startElement(XMLHandler.java:720)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1387)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:258)
+	... 60 more
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 21:12:04.478
+!MESSAGE RPTS1518I Started Spring boot service available 12s
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:12:47.850
+!MESSAGE RPTA0000W SmartLoadManager start - displaying stages
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:12:47.871
+!MESSAGE RPTA0000W Duration=600000
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:12:48.673
+!MESSAGE RPTA0000W Virtual User Licensed - HCL Edition
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:12:48.959
+!MESSAGE RPTA0000W License Server URL = https://cls.hcl-software.com
+Virtual User Licenses Available = 25000
+
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2026-04-03 21:12:49.682
+!MESSAGE RPTJ1045E Attempt to validate a license supporting 5 virtual users was successful.
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:17.446
+!MESSAGE RPTA0000W VUSmartLoadManager running
+   Schedule status:       RUNNING
+   Schedule active users: 0
+   Current stage:         1
+   Stage status:          Waiting for schedule state RUNNING
+   Stage target users:    5
+   Stage duration:        10m 
+   Stages after current:  0
+   Total duration:        indeterminate
+   Percentage completed:  0.00%
+   Time remaining:        indeterminate
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:17.451
+!MESSAGE RPTA0000W VUSmartLoadManager has been running  
+   Schedule status:       RUNNING
+   Schedule active users: 0
+   Current stage:         1
+   Stage status:          Starting stage execution
+   Stage target users:    5
+   Stage duration:        10m 
+   Stages after current:  0
+   Total duration:        indeterminate
+   Percentage completed:  indeterminate
+   Time remaining:        indeterminate
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:17.461
+!MESSAGE RPTA0000W VUSmartLoadManager has been running  
+   Schedule status:       RUNNING
+   Schedule active users: 0
+   Current stage:         1
+   Stage status:          Stage duration started for stage 1 waiting for 5 users active
+   Stage target users:    5
+   Stage duration:        10m 
+   Stages after current:  0
+   Total duration:        indeterminate
+   Percentage completed:  indeterminate
+   Time remaining:        indeterminate
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.570
+!MESSAGE RPTA0000W Virtual User checkin:  0
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.627
+!MESSAGE RPTA0000W SmartLoad statistics for VUschedule
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.648
+!MESSAGE RPTA0000W SmartLoadManager did not complete all stages, stop requested true reason All Agents Inactive, interrupted false
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.658
+!MESSAGE RPTA0000W Stage 1:  5 users, duration 10m , actual indeterminate number of users, duration 20s, Stop requested reason All Agents Inactive
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.666
+!MESSAGE RPTA0000W SmartLoadManager exiting normally
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 1 0 2026-04-03 21:13:37.885
+!MESSAGE RPTA0000W Virtual User checkin:  0
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 2 0 2026-04-03 21:13:41.405
+!MESSAGE RPTA0000W ScheduleExecutorStub:  beginTestLogTransfer()
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 2 0 2026-04-03 21:13:42.909
+!MESSAGE RPTA0000W localhost status at Fri Apr 03 21:13:42 IST 2026
+ maxMemory=11520704512 totalMemory=42139648 freeMemory=10298088
+Console: Success=31 Fail=0 Resets=0 Last Throwable=null Last Throwable Time=never Last Status Code=200 Time last success=Fri Apr 03 21:13:42 IST 2026
+Command: Success=12 Fail=0 Resets=0 Last Throwable=null Last Throwable Time=never Last Status Code=200 Time last success=Fri Apr 03 21:13:41 IST 2026
+History: Success=9 Fail=0 Resets=0 Last Throwable=null Last Throwable Time=never Last Status Code=200 Time last success=Fri Apr 03 21:13:41 IST 2026
+Statistics: Success=0 Fail=0 Resets=0 Last Throwable=null Last Throwable Time=never Last Status Code=0 Time last success=never
+WorkbenchMonitor: Status=Waiting wbLastContact=21:13:41.830 wheresJavierTime=null
+
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2026-04-03 21:13:46.956
+!MESSAGE RPTR0000W ALOHA STOP for localhost
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2026-04-03 21:13:46.962
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for localhost
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 2 0 2026-04-03 21:13:46.970
+!MESSAGE RPTA0000W Schedule checkDriverStatus(HISTORY_COMPLETE) begin
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 2 0 2026-04-03 21:13:46.977
+!MESSAGE RPTA0000W Schedule checkDriverStatus for localhost: HISTORY_COMPLETE
+
+!ENTRY com.ibm.rational.test.common.schedule.execution 2 0 2026-04-03 21:13:46.988
+!MESSAGE RPTA0000W Schedule checkDriverStatus(HISTORY_COMPLETE) result is true
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2026-04-03 21:13:46.993
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\karthick_ba\AppData\Local\Temp\rpt.VUschedule.17676916376657276899
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2026-04-03 21:14:19.535
+!MESSAGE Saving dialog settings

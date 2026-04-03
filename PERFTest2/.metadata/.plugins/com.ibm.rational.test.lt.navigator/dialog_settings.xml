@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SelDialog">
+		<item key="selectTests.state" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;state&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject/Tests&quot; type=&quot;2&quot;/&gt;&#x0D;&#x0A;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject/Tests/Perftest2script.testsuite&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/state&gt;"/>
+	</section>
+</section>

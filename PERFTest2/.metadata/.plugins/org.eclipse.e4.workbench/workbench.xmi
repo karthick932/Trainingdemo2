@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_sLBRwS8VEfGC6_RPv8mgZw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_sLBRwi8VEfGC6_RPv8mgZw" bindingContexts="_sLBRyy8VEfGC6_RPv8mgZw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.LogViewer&quot; name=&quot;Perftest2script_1775190818124.executiondlr&quot; tooltip=&quot;PerftestProject/Results/Perftest2script_1775190818124.executiondlr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Results/Perftest2script_1775190818124.executiondlr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReportLauncher&quot; name=&quot;Perftest2script_1775190811435.stats&quot; tooltip=&quot;PerftestProject/Results/Perftest2script_1775190811435.stats&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Results/Perftest2script_1775190811435.stats&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.testeditor&quot; name=&quot;Perftest2script.testsuite&quot; tooltip=&quot;PerftestProject/Tests/Perftest2script.testsuite&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Tests/Perftest2script.testsuite&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReportLauncher&quot; name=&quot;VUschedule_1775230961938.stats&quot; tooltip=&quot;PerftestProject/Results/VUschedule_1775230961938.stats&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Results/VUschedule_1775230961938.stats&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.common.schedule.editor&quot; name=&quot;VUschedule.testsuite&quot; tooltip=&quot;PerftestProject/Schedules/VUschedule.testsuite&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Schedules/VUschedule.testsuite&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.LogViewer&quot; name=&quot;Perftest2script_1775190818124.executiondlr&quot; tooltip=&quot;PerftestProject/Results/Perftest2script_1775190818124.executiondlr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Results/Perftest2script_1775190818124.executiondlr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReportLauncher&quot; name=&quot;Perftest2script_1775190811435.stats&quot; tooltip=&quot;PerftestProject/Results/Perftest2script_1775190811435.stats&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Results/Perftest2script_1775190811435.stats&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.testeditor&quot; name=&quot;Perftest2script.testsuite&quot; tooltip=&quot;PerftestProject/Tests/Perftest2script.testsuite&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PerftestProject/Tests/Perftest2script.testsuite&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_sLBRwi8VEfGC6_RPv8mgZw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_sedLIi8VEfGC6_RPv8mgZw" label="%trimmedwindow.label.eclipseSDK" x="152" y="152" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -93,7 +93,8 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_tzE0uS8VEfGC6_RPv8mgZw" containerData="7500" selectedElement="_tzE0ui8VEfGC6_RPv8mgZw">
               <children xsi:type="advanced:Placeholder" xmi:id="_tzE0ui8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_tydJoC8VEfGC6_RPv8mgZw"/>
-              <children xsi:type="basic:PartStack" xmi:id="_tzE0uy8VEfGC6_RPv8mgZw" elementId="bottom" containerData="2500" selectedElement="_tzE0wC8VEfGC6_RPv8mgZw">
+              <children xsi:type="basic:PartStack" xmi:id="_tzE0uy8VEfGC6_RPv8mgZw" elementId="bottom" containerData="2500" selectedElement="_xe850C9zEfGceuWhjp9NFg">
+                <tags>Test</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_tzE0vC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.views.ProblemView" ref="_ty7DsC8VEfGC6_RPv8mgZw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -111,6 +112,224 @@
                   <tags>categoryTag:Generic Service Client</tags>
                 </children>
                 <children xsi:type="advanced:Placeholder" xmi:id="_tzE0wC8VEfGC6_RPv8mgZw" elementId="com.ibm.rational.test.lt.execution.html.views.ProtocolDataView" ref="_ty6coC8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_xe850C9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView" ref="_xe7rsC9zEfGceuWhjp9NFg" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="advanced:Perspective" xmi:id="_h8U5cS9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.TestPerspective" label="Functional Test">
+          <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.testeditor.datacorrelation</tags>
+          <tags>persp.actionSet:moeb.actionSet.help</tags>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.ui.moeb.mobile.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.actionSet:com.rational.test.ft.wswplugin.TestActionSet.AMain</tags>
+          <tags>persp.actionSet:com.rational.test.ft.wswplugin.TestActionSet.BRecord</tags>
+          <tags>persp.actionSet:com.rational.test.ft.wswplugin.TestActionSet.CLaunch</tags>
+          <tags>persp.actionSet:com.rational.test.ft.wswplugin.TestActionSet.DConfigure</tags>
+          <tags>persp.actionSet:com.rational.test.ft.wswplugin.TestActionSet.EScript</tags>
+          <tags>persp.actionSet:org.eclipse.debug.ui.debugActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.jdt.debug.ui.JDTDebugActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.ft.visualscript.ui.views.ApplicationViewPart</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.PropertySheet</tags>
+          <tags>persp.viewSC:com.rational.test.ft.wswplugin.assets.ScriptAssetPart</tags>
+          <tags>persp.viewSC:com.rational.test.ft.wswplugin.project.TestExplorerPart</tags>
+          <tags>persp.viewSC:com.rational.test.ft.wswplugin.cm.FindCheckoutsViewPart</tags>
+          <tags>persp.viewSC:com.rational.test.ft.wswplugin.cm.ShowHistoryViewPart</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.TaskList</tags>
+          <tags>persp.viewSC:org.eclipse.ui.console.ConsoleView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.BookmarkView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
+          <tags>persp.viewSC:org.eclipse.debug.ui.BreakpointView</tags>
+          <tags>persp.viewSC:org.eclipse.jdt.ui.PackageExplorer</tags>
+          <tags>persp.viewSC:org.eclipse.jdt.ui.TypeHierarchy</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.ResourceNavigator</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.project.NewDatastoreWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.script.RecordScriptWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.script.NewScriptWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.folder.NewFolderWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.dp.NewDatasetWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.map.NewMapWizard</tags>
+          <tags>persp.newWizSC:com.rational.test.ft.wswplugin.superscript.NewSuperScriptWizard</tags>
+          <tags>persp.viewSC:com.rational.test.ft.wswplugin.rmt.KeywordViewPart</tags>
+          <tags>persp.perspSC:com.rational.test.ft.wswplugin.TestDebugPerspective</tags>
+          <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
+          <tags>persp.actionSet:com.ibm.test.terminal.actionSet</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_h8U5ci9zEfGceuWhjp9NFg" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_h8U5cy9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.project.TestExplorerFolder" containerData="1500">
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8U5dC9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.project.TestExplorerPart" ref="_h8BXcC9zEfGceuWhjp9NFg" closeable="true">
+                <tags>View</tags>
+                <tags>categoryTag:Functional Test</tags>
+              </children>
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8U5dS9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_h8G3AC9zEfGceuWhjp9NFg" closeable="true">
+                <tags>View</tags>
+                <tags>categoryTag:General</tags>
+              </children>
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8U5di9zEfGceuWhjp9NFg" elementId="org.eclipse.jdt.ui.PackageExplorer" toBeRendered="false" ref="_h8G3AS9zEfGceuWhjp9NFg" closeable="true">
+                <tags>View</tags>
+                <tags>categoryTag:Java</tags>
+              </children>
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8U5dy9zEfGceuWhjp9NFg" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_h8G3Ai9zEfGceuWhjp9NFg" closeable="true">
+                <tags>View</tags>
+                <tags>categoryTag:Java</tags>
+              </children>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_h8U5eC9zEfGceuWhjp9NFg" containerData="8500" horizontal="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8U5eS9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.editorss" containerData="5000" ref="_tydJoC8VEfGC6_RPv8mgZw"/>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_h8U5ei9zEfGceuWhjp9NFg" containerData="5000">
+                <children xsi:type="basic:PartStack" xmi:id="_h8U5ey9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.RightFolder" containerData="7500">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5fC9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" ref="_h8G3Ay9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Functional Test</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5fS9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.ft.visualscript.ui.views.ApplicationViewPart" ref="_h8IsMC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Functional Test</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5fi9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" ref="_h8IsMS9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5fy9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.rmt.KeywordViewPart" ref="_h8QoAC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Functional Test</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5gC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_h8U5cC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_h8U5gS9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.OutputFolder" containerData="2500">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5gi9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.PropertySheet" ref="_ty5OgS8VEfGC6_RPv8mgZw" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5gy9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.TaskList" ref="_h8LvgC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5hC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.console.ConsoleView" ref="_h8MWkC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5hS9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ProblemView" ref="_ty7DsC8VEfGC6_RPv8mgZw" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5hi9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_ty7DsS8VEfGC6_RPv8mgZw" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5hy9zEfGceuWhjp9NFg" elementId="org.eclipse.debug.ui.BreakpointView" toBeRendered="false" ref="_h8NksC9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Debug</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_h8U5iC9zEfGceuWhjp9NFg" elementId="org.eclipse.debug.ui.DebugView" toBeRendered="false" ref="_h8Oy0C9zEfGceuWhjp9NFg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Debug</tags>
+                  </children>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="advanced:Perspective" xmi:id="_h8kxES9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.core.TestWorkbenchPerspective" label="UI Test">
+          <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.testeditor.datacorrelation</tags>
+          <tags>persp.actionSet:moeb.actionSet.help</tags>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.ui.moeb.mobile.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.navigator</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.BookmarkView</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.datacorrelation.rules.ui.internal.wizard.NewRuleSetWizard</tags>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.testgen.ui.testgenActionSet</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.testgen.ui.NewTestWizard</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.testeditor.dataView</tags>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.ui.moeb.actionSet</tags>
+          <tags>persp.actionSet:com.ibm.rational.test.lt.execution.ui.runActions</tags>
+          <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
+          <tags>persp.perspSC:com.ibm.rational.test.lt.core.lifecycle.TestExecutionPerspective</tags>
+          <tags>persp.actionSet:org.eclipse.debug.ui.launchActionSet</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.rtw.perspective.ui.wizard.NewTestWorkbenchProjectWizard</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.testeditor.wizard.NewLoadTestWizard</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.testeditor.wizards.NewDatasetWizard</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.navigator.wizard.folder.new</tags>
+          <tags>persp.newWizSC:com.ibm.rational.test.lt.scenario.wizard</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.recorder.ui.views.RecorderControlView</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.execution.html.views.ProtocolDataView</tags>
+          <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.rqm.adapter.gui.view.QMAdapterView</tags>
+          <tags>persp.viewSC:com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.cheatsheets.views.CheatSheetView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.ResourceNavigator</tags>
+          <tags>persp.viewSC:com.ibm.magnolia.workItemExplorer</tags>
+          <tags>persp.viewSC:com.ibm.team.process.rcp.ui.teamArtifactsNavigator</tags>
+          <tags>persp.viewSC:com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView</tags>
+          <tags>persp.perspSC:com.ibm.magnolia.ui.workItemPerspective</tags>
+          <tags>persp.showIn:com.ibm.rational.test.lt.navigator</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_h8kxEi9zEfGceuWhjp9NFg" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_h8kxEy9zEfGceuWhjp9NFg" containerData="2500">
+              <children xsi:type="basic:PartStack" xmi:id="_h8kxFC9zEfGceuWhjp9NFg" elementId="left" containerData="5500">
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxFS9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.navigator" ref="_ty09EC8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxFi9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.testeditor.dataView" ref="_ty5OgC8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_h8kxFy9zEfGceuWhjp9NFg" elementId="bottomLeft" containerData="4500">
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxGC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.PropertySheet" ref="_ty5OgS8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+              </children>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_h8kxGS9zEfGceuWhjp9NFg" containerData="7500">
+              <children xsi:type="advanced:Placeholder" xmi:id="_h8kxGi9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_tydJoC8VEfGC6_RPv8mgZw"/>
+              <children xsi:type="basic:PartStack" xmi:id="_h8kxGy9zEfGceuWhjp9NFg" elementId="bottom" containerData="2500">
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxHC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ProblemView" ref="_ty7DsC8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxHS9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_ty7DsS8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxHi9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.rtw.keyword" ref="_h8kxEC9zEfGceuWhjp9NFg" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxHy9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.recorder.ui.views.RecorderControlView" ref="_ty6coS8VEfGC6_RPv8mgZw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_h8kxIC9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.execution.html.views.ProtocolDataView" ref="_ty6coC8VEfGC6_RPv8mgZw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Test</tags>
                 </children>
@@ -159,7 +378,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_tydJoC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.editorss" selectedElement="_tydJoS8VEfGC6_RPv8mgZw">
-      <children xsi:type="basic:PartStack" xmi:id="_tydJoS8VEfGC6_RPv8mgZw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_WwAsQC8WEfGC6_RPv8mgZw">
+      <children xsi:type="basic:PartStack" xmi:id="_tydJoS8VEfGC6_RPv8mgZw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_1BiPwC9zEfGceuWhjp9NFg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -186,6 +405,18 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>com.ibm.rational.test.lt.LogViewer</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_qWpaYC9zEfGceuWhjp9NFg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VUschedule" iconURI="platform:/plugin/com.ibm.rational.test.common.schedule.editor/icons/obj16/schedule.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.rational.test.common.schedule.editor&quot; name=&quot;VUschedule.testsuite&quot; partName=&quot;VUschedule&quot; title=&quot;VUschedule&quot; tooltip=&quot;PerftestProject/Schedules/VUschedule.testsuite&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PerftestProject/Schedules/VUschedule.testsuite&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>com.ibm.rational.test.common.schedule.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_1BiPwC9zEfGceuWhjp9NFg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VUschedule [4/3/2026, 9:12 PM]" iconURI="platform:/plugin/com.ibm.rational.test.lt.server.execution.ui/icons/obj16/session.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReport&quot; name=&quot;VUschedule_1775230961938.stats&quot; partName=&quot;VUschedule [4/3/2026, 9:12 PM]&quot; title=&quot;VUschedule [4/3/2026, 9:12 PM]&quot; tooltip=&quot;PerftestProject/Results/VUschedule_1775230961938.stats&quot;>&#xD;&#xA;&lt;input factoryID=&quot;com.ibm.rational.test.lt.server.execution.ui.SessionEditorInputFactory&quot; page=&quot;page0&quot; path=&quot;/PerftestProject/Results/VUschedule_1775230961938.stats&quot; report=&quot;http&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReport</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
@@ -194,7 +425,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_ty09EC8VEfGC6_RPv8mgZw" elementId="com.ibm.rational.test.lt.navigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Test Navigator" iconURI="platform:/plugin/com.ibm.rational.test.lt.navigator/icons/cview16/testnavigator_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.lt.navigator.internal.views.TestNavigator"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.lt.navigator"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; includeMissingResource=&quot;false&quot; showEmptyOperations=&quot;false&quot; showFileExtensions=&quot;false&quot; sorterState=&quot;1&quot; useLogicalView=&quot;logical&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject&quot; type=&quot;4&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.test&quot; path=&quot;/PerftestProject&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.test&quot; path=&quot;/PerftestProject/Tests&quot;/>&#xD;&#xA;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject/Tests/Perftest2script.testsuite&quot; type=&quot;1&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; includeMissingResource=&quot;false&quot; showEmptyOperations=&quot;false&quot; showFileExtensions=&quot;false&quot; sorterState=&quot;1&quot; useLogicalView=&quot;logical&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/PerftestProject&quot; type=&quot;4&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.schedule&quot; path=&quot;/PerftestProject&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.schedule&quot; path=&quot;/PerftestProject/Schedules&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.test&quot; path=&quot;/PerftestProject&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.test&quot; path=&quot;/PerftestProject/Tests&quot;/>&#xD;&#xA;&lt;selected factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.schedule&quot; path=&quot;/PerftestProject/Schedules&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Test</tags>
       <menus xmi:id="_t9sJQC8VEfGC6_RPv8mgZw" elementId="com.ibm.rational.test.lt.navigator">
@@ -248,7 +479,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_ty7DsC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (3 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;150&quot; org.eclipse.ui.ide.markerType=&quot;150&quot; org.eclipse.ui.ide.pathField=&quot;200&quot; org.eclipse.ui.ide.resourceField=&quot;150&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;500&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (5 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;150&quot; org.eclipse.ui.ide.markerType=&quot;150&quot; org.eclipse.ui.ide.pathField=&quot;200&quot; org.eclipse.ui.ide.resourceField=&quot;150&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;500&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_uJo6kC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.views.ProblemView">
@@ -275,6 +506,102 @@
       <tags>View</tags>
       <tags>categoryTag:Generic Service Client</tags>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8BXcC9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.project.TestExplorerPart" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Functional Test Projects" iconURI="platform:/plugin/com.rational.test.ft.wswplugin/graphics/datastores_16.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.rational.test.ft.wswplugin"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.rational.test.ft.wswplugin.project.TestExplorerPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Functional Test</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8G3AC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ResourceNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Navigator (Deprecated)" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.navigator.ResourceNavigator"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8G3AS9zEfGceuWhjp9NFg" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.jdt.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Java</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8G3Ai9zEfGceuWhjp9NFg" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.jdt.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Java</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8G3Ay9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Script Explorer" iconURI="platform:/plugin/com.rational.test.ft.wswplugin/graphics/assets_16.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.rational.test.ft.wswplugin"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.rational.test.ft.wswplugin.assets.ScriptAssetPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Functional Test</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8IsMC9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.ft.visualscript.ui.views.ApplicationViewPart" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Application View" iconURI="platform:/plugin/com.ibm.rational.test.ft.visualscript.ui/icons/view16/appview_nav.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.ft.visualscript.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.ft.visualscript.ui.views.ApplicationViewPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Functional Test</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8IsMS9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8LvgC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.TaskList" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Tasks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/tasks_tsk.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.TasksView"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8MWkC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.console"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8NksC9zEfGceuWhjp9NFg" elementId="org.eclipse.debug.ui.BreakpointView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Breakpoints" iconURI="platform:/plugin/org.eclipse.debug.ui/icons/full/eview16/breakpoint_view.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.debug.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.debug.internal.ui.views.breakpoints.BreakpointsView"/>
+      <tags>View</tags>
+      <tags>categoryTag:Debug</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8Oy0C9zEfGceuWhjp9NFg" elementId="org.eclipse.debug.ui.DebugView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Debug" iconURI="platform:/plugin/org.eclipse.debug.ui/icons/full/eview16/debug_view.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.debug.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.debug.internal.ui.views.launch.LaunchView"/>
+      <tags>View</tags>
+      <tags>categoryTag:Debug</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8QoAC9zEfGceuWhjp9NFg" elementId="com.rational.test.ft.wswplugin.rmt.KeywordViewPart" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Keyword View" iconURI="platform:/plugin/com.rational.test.ft.wswplugin/graphics/libraryview.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.rational.test.ft.wswplugin"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.rational.test.ft.wswplugin.rmt.KeywordViewPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Functional Test</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8U5cC9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.views.minimap.MinimapView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Minimap" iconURI="platform:/plugin/org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.workbench.texteditor"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.minimap.MinimapView"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_h8kxEC9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.rtw.keyword" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Keyword View" iconURI="platform:/plugin/com.ibm.rational.test.rtw.keyword/com/ibm/rational/test/rtw/keyword/graphics/libraryview.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.rtw.keyword"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.rtw.keyword.KeywordViewPart"/>
+      <tags>View</tags>
+      <tags>categoryTag:Test</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_xe7rsC9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Execution Event Console" iconURI="platform:/plugin/com.ibm.rational.test.lt.execution.econsole/icons/cview16/econsole_view.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.lt.execution.econsole"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Test</tags>
+      <menus xmi:id="_xgd8wC9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_xgd8wS9zEfGceuWhjp9NFg" elementId="com.ibm.rational.test.lt.execution.econsole.ui.EConsoleView" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_sLBRwy8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.platform">
       <children xsi:type="menu:ToolBar" xmi:id="_sgtN4C8VEfGC6_RPv8mgZw" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -282,7 +609,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sgucAC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_sg2-4C8VEfGC6_RPv8mgZw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sLt2SC8VEfGC6_RPv8mgZw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_h_Q4sC9zEfGceuWhjp9NFg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sLt2SC8VEfGC6_RPv8mgZw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sgucAS8VEfGC6_RPv8mgZw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -325,7 +652,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sgvDEC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_sg4NAC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sLt1wC8VEfGC6_RPv8mgZw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_h_b30C9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sLt1wC8VEfGC6_RPv8mgZw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sgvDES8VEfGC6_RPv8mgZw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -896,30 +1223,30 @@
   <rootContext xmi:id="_tywEki8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
   <rootContext xmi:id="_tywElC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
   <rootContext xmi:id="_tyxSsC8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
-  <descriptors xmi:id="_sRklvi8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" category="Eclipse Runtime Spies" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
+  <descriptors xmi:id="_gHwkgC9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" category="Eclipse Runtime Spies" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
     <persistedState key="perstistState" value="false"/>
     <tags>View</tags>
     <tags>Spy</tags>
     <tags>categoryTag:Eclipse Runtime Spies</tags>
-    <toolbar xmi:id="_sRklxC8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
-      <children xsi:type="menu:ToolControl" xmi:id="_sRklxS8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_sRklxi8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_sRklxy8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
+    <toolbar xmi:id="_gHwkhi9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
+      <children xsi:type="menu:ToolControl" xmi:id="_gHwkhy9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_gHwkiC9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_gHwkiS9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_ufxRsHY2EeSuTdKDH5hMwg"/>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_sRklyC8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_sRklyS8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_sRklyi8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
+      <children xsi:type="menu:ToolControl" xmi:id="_gHwkii9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_gHwkiy9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_gHwkjC9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_4NM_IH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_sRklyy8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_gHwkjS9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_68UQwH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_sRklzC8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_sRklzS8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_gHwkji9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_gHwkjy9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_iGEkYGxiEeSQ7v0akw7aRA"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_sRklzi8VEfGC6_RPv8mgZw" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_gHwkkC9zEfGceuWhjp9NFg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_eBGTEGxiEeSQ7v0akw7aRA"/>
       </children>
     </toolbar>
@@ -2405,7 +2732,7 @@
   <addons xmi:id="_sLB42y8VEfGC6_RPv8mgZw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_sLB43C8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_sLLp0C8VEfGC6_RPv8mgZw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_gH9Y1y9zEfGceuWhjp9NFg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_sLo80C8VEfGC6_RPv8mgZw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_sLo80S8VEfGC6_RPv8mgZw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

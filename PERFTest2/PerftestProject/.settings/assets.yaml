@@ -44,8 +44,54 @@ resources:
       - name: Perftest2script_1775190811435_perf!localhost.rstats
         type: com.ibm.rational.test.lt.stats.raw
       - name: Perftest2script_1775190818124.executiondlr
+      - name: VUschedule_1775230961938.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1775230961938
+          tags: 
+          testId: A1F12F73A905CC30ECE2B76236306231
+          testName: VUschedule
+        dependencies: 
+          - path: /PerftestProject/Results/VUschedule_1775230961938_orch!system.mstats
+            type: statsSessionStore
+          - path: /PerftestProject/Results/VUschedule_1775230961938_orch!system.rstats
+            type: statsSessionStore
+          - path: /PerftestProject/Results/VUschedule_1775230961938_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /PerftestProject/Results/VUschedule_1775230961938_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /PerftestProject/Results/VUschedule_1775230970966.executiondlr
+            type: statsSessionAsset
+          - path: /PerftestProject/Schedules/VUschedule.testsuite
+            type: statsSessionTest
+      - name: VUschedule_1775230961938_orch!system.mstats
+      - name: VUschedule_1775230961938_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUschedule_1775230961938_perf!localhost.mstats
+      - name: VUschedule_1775230961938_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUschedule_1775230970966.executiondlr
   - name: Schedules
     resources: 
+      - name: VUschedule.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.7.0
+        properties: 
+          description: 'Stages:
+
+	users=5; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Perftest2script
+
+'
+          name: VUschedule
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1F12F73A905CC30ECE2B76236306231
+        dependencies: 
+          - path: /PerftestProject/Tests/Perftest2script.testsuite
+            type: scheduleInvokedTest
   - name: Tests
     resources: 
       - name: Perftest2script.recdata
@@ -69,4 +115,6 @@ resources:
       - name: test
         resources: 
           - name: Perftest2script_Test_A1F12F16111AEFC0F326B86139383235.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VUschedule_Schedule_A1F12F73A905CC30ECE2B76236306231.java
             type: com.ibm.rational.test.lt.generatedCode
