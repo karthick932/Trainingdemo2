@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
+<CommonBaseEvents>
+	<CommonBaseEvent creationTime="2026-04-02T11:52:12.866Z" msg="Calculated host ID: {}" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>0</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>&lt;init&gt;</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="4IOiaUoQBZsFjb1O6VDC72qjexiaJ6MJ"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:26.226Z" msg="Setting up driver key webdriver.edge.driver" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>134</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>setUpDriverExe</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="webdriver.edge.driver"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:26.233Z" msg="Writing script file C:\Users\KARTHI~1\AppData\Local\Temp\msedgedriver.bat" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>2</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>134</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>setUpDriverExe</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="C:\Users\KARTHI~1\AppData\Local\Temp\msedgedriver.bat"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:26.243Z" msg="Driver set to C:\Users\KARTHI~1\AppData\Local\Temp\msedgedriver.bat" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>3</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>134</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>setUpDriverExe</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="C:\Users\KARTHI~1\AppData\Local\Temp\msedgedriver.bat"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:29.121Z" msg="Unable to find an exact match for CDP version 146, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 146" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>4</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>134</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>WARNING</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>900</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>findNearestMatch</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="146"/>
+			<msgCatalogTokens value="142"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:54.249Z" msg="Run command : [taskkill, /IM, msedgedriver.exe, /F]" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>5</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>134</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.OSUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>runProcess</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="[taskkill, /IM, msedgedriver.exe, /F]"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2026-04-02T11:53:54.910Z" msg="Process alive false exit value 128" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>6</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>176</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.WebdriverUtils</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.ibm.rational.test.rtw.webgui.selenium.OSUtils$ProcessRunner</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>call</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.35" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+</CommonBaseEvents>

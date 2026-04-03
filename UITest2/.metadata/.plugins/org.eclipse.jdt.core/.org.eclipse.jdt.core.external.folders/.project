@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Program Files/HCL/HCLIMShared/plugins/com.hcl.test.jakarta.xml.bind_3.0.1.v20251202_0501</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Program Files/HCL/HCLIMShared/plugins/org.apache.commons.logging_1.2.0.v20220511_1233</location>
+		</link>
+	</linkedResources>
+</projectDescription>

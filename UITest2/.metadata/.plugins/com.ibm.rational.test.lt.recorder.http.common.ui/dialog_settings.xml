@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWebGuiRecorderClientWizard">
+		<item key="addRootCA" value="false"/>
+		<item key="clientCertificateType" value="SIMPLE"/>
+		<item key="clientCertificateEnabled" value="false"/>
+		<item key="proxyType" value="AUTO"/>
+		<item key="useManualProxyPort" value="false"/>
+		<item key="manualProxyPort" value="1080"/>
+		<item key="connectionMode" value="BROWSER_SETTINGS"/>
+		<item key="httpProxyHost" value=""/>
+		<item key="httpProxyPort" value="8080"/>
+		<item key="differentHttpsSettings" value="false"/>
+		<item key="httpsProxyHost" value=""/>
+		<item key="httpsProxyPort" value="8080"/>
+		<item key="socksProxyHost" value=""/>
+		<item key="socksProxyPort" value="8080"/>
+		<item key="socksProxyVersion4" value="true"/>
+		<item key="pacUrl" value=""/>
+		<item key="nonProxyHostList" value=""/>
+		<item key="revertNonProxyHostListLogic" value="false"/>
+		<item key="serverCertificateEnabled" value="false"/>
+		<item key="overrideBrowserSslEncryption" value="false"/>
+		<item key="tlsv10" value="false"/>
+		<item key="tlsv11" value="false"/>
+		<item key="tlsv12" value="true"/>
+		<item key="tlsv13" value="true"/>
+		<item key="sslv3" value="false"/>
+		<section name="clientCertificateEnabledSection">
+		</section>
+		<section name="serverCertificateEnabledSection">
+		</section>
+	</section>
+</section>

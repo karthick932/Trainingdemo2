@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.test.common.editor.framework.SearchPage">
+		<item key="srch.label.case.default" value="false"/>
+		<item key="srch.label.limit.default" value="false"/>
+		<item key="srch.label.recursive.default" value="true"/>
+		<item key="srch.label.regex.default" value="false"/>
+		<item key="srch.label.select.default" value="false"/>
+	</section>
+	<section name="EDITOR_STATE">
+		<section name="editor-A1F12F16111AEFC0F326B86139383235">
+			<item key="file" value="L/PerftestProject/Tests/Perftest2script.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F12F16111AEFC0F326B86139383235"/>
+			</list>
+		</section>
+	</section>
+	<section name="last.test.options.tab">
+		<section name="editor-A1F12F16111AEFC0F326B86139383235">
+		</section>
+	</section>
+	<section name="sync-points">
+		<item key="size" value="0"/>
+	</section>
+</section>

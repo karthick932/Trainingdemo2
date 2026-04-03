@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewTestFromRecordingWizard">
+		<item key="method" value="CREATE_NEW_RECSESSION"/>
+		<item key="encryptionLevel" value="NONE"/>
+		<item key="advancedRecording" value="false"/>
+		<item key="customDcValue" value="false"/>
+		<list key="testGenerators">
+			<item value="com.ibm.rational.test.rtw.webgui.testgen.webGuiTestGenerator"/>
+		</list>
+	</section>
+	<section name="TestGenerationWizard">
+	</section>
+</section>

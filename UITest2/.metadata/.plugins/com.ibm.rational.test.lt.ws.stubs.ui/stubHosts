@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stubServersInfo>
+<localServer isRunning="false">
+<ports http="8580" https="8543"/>
+<SSLConfig isDummySSL="true"/>
+<logOptions level="0" overwrite="true" prettySerialization="true"/>
+</localServer>
+</stubServersInfo>

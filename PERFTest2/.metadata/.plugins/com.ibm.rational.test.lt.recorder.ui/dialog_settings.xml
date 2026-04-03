@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewRecordingWizard">
+		<item key="privacyAccepted" value="false"/>
+		<item key="encryptionLevel" value="NONE"/>
+		<list key="clients">
+			<item value="com.ibm.rational.test.lt.recorder.http.common.ui.edge"/>
+		</list>
+	</section>
+</section>

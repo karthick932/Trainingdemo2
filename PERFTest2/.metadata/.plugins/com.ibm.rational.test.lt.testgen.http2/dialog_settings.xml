@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Http2TestGeneratorWizard">
+		<list key="lastFilteredDomains">
+			<item value="www.bing.com"/>
+			<item value="nav-edge.smartscreen.microsoft.com"/>
+			<item value="fonts.googleapis.com"/>
+			<item value="cdn.jsdelivr.net"/>
+			<item value="fonts.gstatic.com"/>
+			<item value="data-edge.smartscreen.microsoft.com"/>
+			<item value="edge-consumer-static.azureedge.net"/>
+			<item value="edge.microsoft.com"/>
+			<item value="petclinic.aspectran.com"/>
+			<item value="code.jquery.com"/>
+			<item value="edgeassetservice.azureedge.net"/>
+			<item value="telem-edge.smartscreen.microsoft.com"/>
+		</list>
+	</section>
+</section>

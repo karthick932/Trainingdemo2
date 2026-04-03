@@ -1,0 +1,235 @@
+!SESSION 2026-04-03 09:59:19.781 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.15+6
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20250415_979 (JIT enabled, AOT enabled)
+OpenJ9   - 31cf5538b0
+OMR      - 9bcff94a2
+JCL      - d3deabff95c based on jdk-17.0.15+6
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.ibm.rational.rpt.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\karthick_ba\WS1\PERFTest2 -product com.ibm.rational.rpt.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-03 09:59:39.500
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karthick_ba'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 09:59:46.912
+!MESSAGE RPTS1518I DS_OUT: Starting dataset service C:\Program Files\HCL\DevOpsTest\jdk\bin\java.exe, -jar, C:\Program Files\HCL\DevOpsTest\..\HCLIMShared\plugins\com.ibm.rational.test.lt.server_1.4.900.v20251202_0514\datasets\datasets-service.jar, --spring.profiles.active=wb, --spring.config.additional-location=C:\Users\KARTHI~1\AppData\Local\Temp\keystore_v3.properties, --server.ssl.key-store=C:\Users\KARTHI~1\AppData\Local\Temp\rpt_keystore_v3.jks, --server.ssl.trust-store=C:\Users\KARTHI~1\AppData\Local\Temp\rpt_keystore_v3.jks, --server.port=7081, --server.address=127.0.0.1, --dataset.service.exitdetect=true
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:15.203
+!MESSAGE RPTS1518I DS_OUT: Started dataset service available 28s
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.242
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.244
+!MESSAGE RPTS1518I   .   ____          _            __ _ _
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.244
+!MESSAGE RPTS1518I  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.252
+!MESSAGE RPTS1518I ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.258
+!MESSAGE RPTS1518I  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.260
+!MESSAGE RPTS1518I   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.260
+!MESSAGE RPTS1518I  =========|_|==============|___/=/_/_/_/
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.270
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.276
+!MESSAGE RPTS1518I  :: Spring Boot ::                (v3.5.7)
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:19.280
+!MESSAGE RPTS1518I 
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2026-04-03 10:00:26.396
+!MESSAGE RPTS1518I Started Spring boot service available 11s
+
+!ENTRY com.ibm.rational.test.rtw.webgui.recorder 4 0 2026-04-03 10:01:22.994
+!MESSAGE CRRTWW0031E Exception in starting Edge browser.
+org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'style')
+  (Session info: MicrosoftEdge=146.0.3856.97)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fbd23523b0771ba9e93c9a0f54d1c7eb, executeScript {args=[], script=const loadTimer = 1000;/******************************************************************
+* Licensed Materials - Property of IBM and/or HCL 
+* (c) Copyright HCL Technologies Ltd. 2019. All Rights Reserved.
+* 
+* Note to U.S. Government Users Restricted Rights: 
+* Use, duplication or disclosure restricted by GSA ADP Schedule 
+* Contract with IBM Corp. 
+*******************************************************************/
+
+function setTableDisplay(display) {
+	var table = document.getElementById('appTable');
+	table.style.display = display;
+}
+setTableDisplay('none');
+
+function addStyle(str) {
+	var node = document.createElement('style');
+	node.innerHTML = str;
+	document.body.appendChild(node);
+}
+addStyle('\
+	#loader {\
+		border: 3px solid #f3f3f3;\
+		animation: spin 1s linear infinite;\
+		border-top: 3px solid #555;\
+		border-radius: 50%;\
+		width: 30px;\
+		height: 30px;\
+	}\
+	@keyframes spin {\
+		0% { transform: rotate(0deg); }\
+		100% { transform: rotate(360deg); }\
+	}'
+);
+
+function createLoader() {
+	var loader = document.createElement('div');
+	loader.id = 'loader';
+	var cfgApp = document.getElementById('configApp');
+	cfgApp.appendChild(loader);
+}
+createLoader();
+
+function hideLoader() {
+	var loader = document.getElementById('loader');
+	loader.style.display = 'none';
+}
+
+setTimeout(function() {
+		hideLoader();
+		setTableDisplay('inherit');
+	}, loadTimer
+);
+}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 146.0.3856.97, fedcm:accounts: true, goog:processID: 21680, ms:edgeOptions: {debuggerAddress: localhost:51192}, msedge: {msedgedriverVersion: 146.0.3856.62 (f2c63c965af6..., userDataDir: C:\Users\KARTHI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=localhos..., se:cdp: ws://localhost:51192/devtoo..., se:cdpVersion: 146.0.3856.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbd23523b0771ba9e93c9a0f54d1c7eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:488)
+	at com.ibm.rational.test.rtw.webgui.client.SelClientDelegate.populateAppList(SelClientDelegate.java:413)
+	at com.ibm.rati
+!STACK 0
+java.lang.Throwable: org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'style')
+  (Session info: MicrosoftEdge=146.0.3856.97)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fbd23523b0771ba9e93c9a0f54d1c7eb, executeScript {args=[], script=const loadTimer = 1000;/******************************************************************
+* Licensed Materials - Property of IBM and/or HCL 
+* (c) Copyright HCL Technologies Ltd. 2019. All Rights Reserved.
+* 
+* Note to U.S. Government Users Restricted Rights: 
+* Use, duplication or disclosure restricted by GSA ADP Schedule 
+* Contract with IBM Corp. 
+*******************************************************************/
+
+function setTableDisplay(display) {
+	var table = document.getElementById('appTable');
+	table.style.display = display;
+}
+setTableDisplay('none');
+
+function addStyle(str) {
+	var node = document.createElement('style');
+	node.innerHTML = str;
+	document.body.appendChild(node);
+}
+addStyle('\
+	#loader {\
+		border: 3px solid #f3f3f3;\
+		animation: spin 1s linear infinite;\
+		border-top: 3px solid #555;\
+		border-radius: 50%;\
+		width: 30px;\
+		height: 30px;\
+	}\
+	@keyframes spin {\
+		0% { transform: rotate(0deg); }\
+		100% { transform: rotate(360deg); }\
+	}'
+);
+
+function createLoader() {
+	var loader = document.createElement('div');
+	loader.id = 'loader';
+	var cfgApp = document.getElementById('configApp');
+	cfgApp.appendChild(loader);
+}
+createLoader();
+
+function hideLoader() {
+	var loader = document.getElementById('loader');
+	loader.style.display = 'none';
+}
+
+setTimeout(function() {
+		hideLoader();
+		setTableDisplay('inherit');
+	}, loadTimer
+);
+}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 146.0.3856.97, fedcm:accounts: true, goog:processID: 21680, ms:edgeOptions: {debuggerAddress: localhost:51192}, msedge: {msedgedriverVersion: 146.0.3856.62 (f2c63c965af6..., userDataDir: C:\Users\KARTHI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=localhos..., se:cdp: ws://localhost:51192/devtoo..., se:cdpVersion: 146.0.3856.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbd23523b0771ba9e93c9a0f54d1c7eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:488)
+	at com.ibm.rational.test.rtw.webgui.client.SelClientDelegate.populateAppList(SelClientDelegate.java:413)
+	at com.ibm.rational.test.rtw.webgui.client.SelEdgeClientDelegate.startSelClient(SelEdgeClientDelegate.java:142)
+	at com.ibm.rational.test.rtw.webgui.client.SelClientDelegate.start(SelClientDelegate.java:91)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDelegate(Client.java:103)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDecoration(Client.java:278)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client$8.run(Client.java:291)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2026-04-03 10:02:04.583
+!MESSAGE RPTTI0001 Test generation started at Fri Apr 03 10:02:04 IST 2026 -- input:  Perftest2script.recsession
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2026-04-03 10:02:09.930
+!MESSAGE RPTTI0002 Test generation completed at Fri Apr 03 10:02:09 IST 2026 -- output:  Perftest2script.testsuite
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2026-04-03 10:04:06.520
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2026-04-03 10:04:06.527
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2026-04-03 10:04:07.043
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\karthick_ba\AppData\Local\Temp\rpt.Perftest2script.9915242933793464984
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2026-04-03 10:04:25.434
+!MESSAGE Saving dialog settings
